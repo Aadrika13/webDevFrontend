@@ -1,11 +1,81 @@
-<!DOCTYPE html>
+<!DOCTYPE html>                                         <!-- latest version of html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+</head>                                                     <!-- to send info to browser -->
 <body>
-    <h1>Hello!! This is the index page.Just started Full stack(Frontend)</h1>
+    <h1>List</h1>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+    </ol>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+    </ul>
+    <!-- nested list -->
+    <h1>Movies</h1>
+    <ul>
+        <li>Hollywood
+            <ul type="square">
+                <li>Avengers</li>
+                <li>Joker</li>
+                <li>Passengers</li>
+                <li>Interstellar</li>
+            </ul>
+        </li>
+        <li>Bollywood
+            <ol type="i">
+                <li>Stree 2</li>
+                <li>Munja</li>
+                <li>Tumbad</li>
+                <li>Kalki</li>
+            </ol>
+        </li>
+    </ul>
+    <h1>Inputs</h1>
+    <input type="password" name="password" id="password">
+    <input type="email" placeholder="abc@gmail.com" name="email" id="email">
+    <input type="date" name="date" id="date">
+
+    <h1>Button</h1>
+    <input type="radio" name="q1" id="">
+    <input type="radio" name="q2" id="">
+    <input type="radio" name="q3" id="">
+    <input type="radio" name="q4" id="">
+
+    <select name="" id="">
+        <option value="">option1</option>
+        <option value="">option2</option>
+    </select>
+
+
+    <h1>Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Description</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <br>
+            <label for="number">Number</label>
+            <input type="number" id="number">
+
+            <br>
+            <h3>Gender</h3>
+            <label for=""></label>
+            <input type="radio" name="gender" id=""><br>
+            <label for=""></label>
+            <input type="radio" name="gender" id=""><br>
+            <label for=""></label>
+            <input type="radio" name="gender" id=""><br>
+
+            <button type="submit" name="submit">Submit</button>
+        </fieldset>
+    </form>
+
 </body>
 </html>
